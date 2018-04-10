@@ -1,0 +1,12 @@
+
+./call-heuristics /Users/changjiang/ChangjiangGou/Workflows/code/random_apps/ random_apps.txt TargetPeriod.txt PT05.txt true true >>../../result/result_norm_5p_disc_pt5.txt
+
+./call-heuristics /Users/changjiang/ChangjiangGou/Workflows/code/random_apps/ random_apps.txt TargetPeriod.txt PT05.txt false true >>../../result/result_norm_5p_cont_pt5.txt
+
+./call-heuristics /Users/changjiang/ChangjiangGou/Workflows/code/random_apps2/ random_apps.txt TargetPeriod.txt PT05.txt false true >>../../result/result_cont_manyNPratios.txt
+
+./call-heuristics /Users/changjiang/ChangjiangGou/Workflows/code/random_apps2/ random_apps.txt TargetPeriod.txt PT05.txt true true >>../../result/result_disc_manyNPratios.txt
+
+./call-heuristics /Users/changjiang/ChangjiangGou/Workflows/code/real_apps/ realapps.txt TargetPeriod.txt PT01.txt true true >>../../result/result_real_disc.txt
+
+./call-heuristics /Users/changjiang/ChangjiangGou/Workflows/code/real_apps/ realapps.txt TargetPeriod.txt PT01.txt false true >>../../result/result_real_cont.txt
